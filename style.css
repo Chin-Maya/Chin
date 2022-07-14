@@ -1,0 +1,73 @@
+/*TAGS*/
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #cdcdcd;
+    text-align: center;
+    align-items: center;
+    font-size: x-large;
+}
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+a{
+    color: #3a3a3a;
+    text-decoration: none;
+}
+/*nesting*/
+#profile img{
+    border-radius: 50%;
+    border: #5a5a5a solid;
+}
+.divh span{
+    margin: 2%;
+}
+
+
+
+/*CLASSES*/
+.divm{
+    background-color: #ababab;
+    margin: 5% 10%;
+    padding: 5% 10%;
+    border-radius: 20px;
+}
+
+
+/*PSUEDO CLASSES*/
+.divm:hover{
+    background-color: #8a8a8a;
+    border: #5a5a5a solid;
+}
+/*Element nesting*/
+footer a:hover{
+    text-decoration: underline;
+    color: #5a5a5a;
+}
+
+
+/*MEDIA QUERRIES*/
+@media all and (max-width: 700px){
+
+    /*tags*/
+    body{
+        font-size: large;
+    }
+    main{
+        display: block;
+    }
+
+    /*classes*/
+
+    /*id*/
+
+    /*nesting*/
+    span img{
+        width: 40px;
+    }
+    #profile img{
+        width: 50%;
+    }
+
+    /*psuedo lasses*/
+}
